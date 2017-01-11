@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFCC99">
+
+    <TextView
+        android:id="@+id/tvIniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro Empresa"
+        android:padding="15dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:id="@+id/etruc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RUC"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/etdireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="direccion"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/etcontraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contraseña"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/etconf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="confirmar contraseña"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:layout_gravity="center"/>
+</LinearLayout>
